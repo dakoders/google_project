@@ -1,0 +1,176 @@
+body {
+  overflow: hidden;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  border: 0px;
+  padding-left: 2px;
+
+
+  text-decoration: none;
+
+  vertical-align: center;
+}
+
+li {
+
+  display: inline-block;
+  padding-top: -2px;
+  font-family: sans-serif;
+  margin: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+
+  left: 0px;
+  min-width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+  padding-bottom: 10px;
+  font-size: 14px;
+  background-color: #ededed;
+}
+
+div {
+  display: inline-block;
+
+}
+
+header {
+  font-size: 12px;
+  height: 2.5rem;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+
+#header-right {
+display: flex;
+justify-content: space-evenly;
+float: right;
+padding: 0px;
+}
+
+#footer-right {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  align-items: center;
+
+
+}
+
+img.logo {
+  height: 92px;
+  width: 272px;
+}
+
+.imgdiv {
+  align-items: center;
+    display: flex;
+    justify-content: center;
+  margin-top: 160px;
+  margin-bottom: 15px;
+}
+
+.searchbar {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  align-items: center;
+
+}
+
+.material-icons.mdc-button__icon{
+  padding-left: 5px;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+}
+
+.mdc-button__icon + input{
+  padding-left: 45px;
+}
+
+
+input {
+  width: 500px;
+  height: 41px;
+  border-radius: 40px;
+  border-width: 1px 1px 1px 1px;
+  border-color: light-gray;
+  transition: box-shadow .3s;
+  opacity: .55;
+}
+
+
+
+.googlebutton {
+  /* background-image: url('https://ssl.gstatic.com/gb/images/i2_2ec824b0.png'); */
+  background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    /* border-radius: 2px; */
+    box-sizing: border-box;
+    /* padding-right: 15px; */
+    height: 25px;
+    width: 25px;
+}
+
+button {
+  width: 160px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+}
+
+#lftbut {
+  margin-right: 10px;
+
+}
+
+#rtbut {
+  margin-left: 10px;
+}
+
+.buttons {
+  margin-top: 30px;
+  align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.userbutton {
+  box-sizing: border-box;
+  right: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  padding-bottom: -20px;
+  margin-bottom: -15px;
+
+
+
+}
+
+input:hover {
+  box-shadow:7px 7px 19px rgba(33,33,33,.2);
+
+}
